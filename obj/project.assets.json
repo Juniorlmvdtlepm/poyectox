@@ -224,7 +224,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Equipo 21\\.nuget\\packages\\": {}
+    "C:\\Users\\Gamaliel Garcia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -232,11 +232,11 @@
       "projectUniqueName": "C:\\cmder\\gama\\poyectox\\poyectox\\poyectox.csproj",
       "projectName": "poyectox",
       "projectPath": "C:\\cmder\\gama\\poyectox\\poyectox\\poyectox.csproj",
-      "packagesPath": "C:\\Users\\Equipo 21\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Gamaliel Garcia\\.nuget\\packages\\",
       "outputPath": "C:\\cmder\\gama\\poyectox\\poyectox\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Equipo 21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Gamaliel Garcia\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

@@ -42,5 +42,31 @@ namespace poyectox.Controllers
             return CreatedAtAction(nameof(create),new{ID = pizza},pizza);
 
          }
+
+         [HttpDelete("{id}")]
+         public IActionResult Delete(int id)
+         {
+            var pizza = pizzaservice.Get(id);
+            if(pizza is null)
+            return NotFound();
+
+            pizzaservice.Delete(id);
+            return NoContent();
+         }
+
+         [HttpPut("{ID}")]
+         public IActionResult update(int ID,pizza pizza)
+         {
+            if (ID != pizza.ID)
+            return BadRequest();
+
+            var existingpizza = pizzaservice.Get(ID);
+            if (existingpizza is null)
+            return NotFound();
+
+            pizzaservice.update(pizza);
+
+            return NoContent();
+         }
 }
 }

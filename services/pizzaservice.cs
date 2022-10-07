@@ -27,7 +27,24 @@ namespace poyectox.services
             pizza.ID = nextID++; 
             pizzas.Add(pizza);
           }
+             public static void Delete(int ID)
+             {
+              var pizza = Get(ID);
+              if(pizza is null)
+              return;
 
+              pizzas.Remove(pizza);
+             }
+            public static void update(pizza pizza)
+            {
+              var index = pizzas.FindIndex(pizza => pizza.ID == pizza.ID);
+              if (index == -1)
+              return;
+
+              pizzas[index] = pizza;
+            }
+
+          
 
        }
 

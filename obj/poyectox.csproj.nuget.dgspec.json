@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\cmder\\gama\\poyectox\\poyectox\\poyectox.csproj",
         "projectName": "poyectox",
         "projectPath": "C:\\cmder\\gama\\poyectox\\poyectox\\poyectox.csproj",
-        "packagesPath": "C:\\Users\\Gamaliel Garcia\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\pc-24\\.nuget\\packages\\",
         "outputPath": "C:\\cmder\\gama\\poyectox\\poyectox\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gamaliel Garcia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pc-24\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
